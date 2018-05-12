@@ -1,0 +1,6 @@
+C:\Users\Shiva\Source\Repos\Solid\Solid\bin\Debug\Solid.exe.config
+C:\Users\Shiva\Source\Repos\Solid\Solid\bin\Debug\Solid.exe
+C:\Users\Shiva\Source\Repos\Solid\Solid\bin\Debug\Solid.pdb
+C:\Users\Shiva\Source\Repos\Solid\Solid\obj\Debug\Solid.csproj.CoreCompileInputs.cache
+C:\Users\Shiva\Source\Repos\Solid\Solid\obj\Debug\Solid.exe
+C:\Users\Shiva\Source\Repos\Solid\Solid\obj\Debug\Solid.pdb
