@@ -44,6 +44,10 @@
   <ItemGroup>
     <Compile Include="OpenClosePrinciple\Accounts.cs" />
     <Compile Include="OpenClosePrinciple\EmployeeModel.cs" />
+    <Compile Include="OpenClosePrinciple\IAccounts.cs" />
+    <Compile Include="OpenClosePrinciple\IApplicantModel.cs" />
+    <Compile Include="OpenClosePrinciple\ManagerAccounts.cs" />
+    <Compile Include="OpenClosePrinciple\ManagerModel.cs" />
     <Compile Include="OpenClosePrinciple\PersonModel.cs" />
     <Compile Include="OpenClosePrinciple\Program.cs" />
     <Compile Include="SingleResponsibility\Program.cs" />

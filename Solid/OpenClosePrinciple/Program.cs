@@ -7,22 +7,21 @@ namespace Solid.OpenClosePrinciple
     {
         public static void Main(string[] args)
         {
-            var applicants = new List<PersonModel>
+            var applicants = new List<IApplicantModel>
             {
                 new PersonModel{FirstName="Tim", LastName="John" },
-                new PersonModel{FirstName="Shiva", LastName="Sharma" }
+                new ManagerModel{FirstName="Shiva", LastName="Sharma" }
             };
 
             var employees = new List<EmployeeModel>();
-            var accountProcessor = new Accounts();
 
             foreach (var person in applicants)
             {
-                employees.Add(accountProcessor.Create(person));
+                employees.Add(person.AccountProcessor.Create(person));
             }
 
             foreach (var emp in employees)
-                Console.WriteLine($"{emp.FirstName}{emp.LastName}{emp.Email}");
+                Console.WriteLine($"{emp.FirstName}{emp.LastName}{emp.Email} IsManager: {emp.IsManager} IsExecutive:{emp.IsExecutive}");
 
             Console.ReadLine();
         }

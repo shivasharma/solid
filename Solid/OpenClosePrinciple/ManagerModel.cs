@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Solid.OpenClosePrinciple
 {
-    public class EmployeeModel
+    public class ManagerModel : IApplicantModel
     {
-        public string Email { get; set; }
+        public IAccounts AccountProcessor { get; set; } = new ManagerAccounts();
         public string FirstName { get; set; }
-        public bool IsExecutive { get; set; } = false;
-        public bool IsManager { get; set; } = false;
         public string LastName { get; set; }
     }
 }
