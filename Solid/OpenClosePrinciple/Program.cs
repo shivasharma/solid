@@ -14,7 +14,6 @@ namespace Solid.OpenClosePrinciple
             };
 
             var employees = new List<EmployeeModel>();
-
             foreach (var person in applicants)
             {
                 employees.Add(person.AccountProcessor.Create(person));

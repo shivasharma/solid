@@ -15,7 +15,7 @@ namespace Solid.SingleResponsibility
             Person user = PersonDataCapture.Capture();
             //check for null
             bool isUserValide = PersonValidator.ValidatePerson(user);
-            if (isUserValide == false)
+            if (!isUserValide)
             {
                 StandardMessages.EndApplication();
                 return;
